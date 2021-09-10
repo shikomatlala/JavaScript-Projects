@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+            <label id="lbl_staffNum" class="" for="staff_number">Stuff Number</label><br>
+            <input id="staff_number" class="" type="text" name="staff_number" value="" placeholder="Staff Number"><br><br>
+            <label id="lbl_idNum" class="" for="staff_id">ID Number</label><br>
+            <input id="id_number" class="" type="text" name="id_number" value="" placeholder="ID Number"><br><br>
+            <label id="lbl_password" class="" for="password">Password</label><br>
+            <input id="password" onchange="passwordStrength()" class="input_weak" type="password" name="password" value="" placeholder="Password"><label id="span_img"></label><br><br>
+            <label id="lbl_password2" class="" for="password2">Password</label><br>
+            <input id="password2" onchange="passwordStrength()" type="password" name="password2" class="input_weak" value="" placeholder="Confirm Password"><label id="span_img2"></label><br><br>
+            <input id="enter_btn" onclick="display_result()" class="enter-btn" type="button" name="sumbmit" value="Sign up" ><br>
+            <script src="index.js"></script>
+    </body>
+</html>
